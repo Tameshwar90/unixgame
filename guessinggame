@@ -1,0 +1,20 @@
+echo "Guess a number of files in the directory  and press enter"
+read number
+
+echo "You entered the number: $number"
+
+if [[ $number -lt 3 ]]
+then
+ echo "Try again, wrong guess"
+elif [[ $number -eq 3]]
+ echo " Your guess is 3 which is corecct, there are only three 
+in the directory."
+fi
+
+
+
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
